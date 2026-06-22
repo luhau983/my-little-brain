@@ -24,3 +24,13 @@
   capturing per-project knowledge: stack, project-specific conventions, gotchas, key decisions, ownership.
 - Linked from doltech/index.md under Templates. Workflow: when you learn something special about a
   doltech project, copy the template to `<project-slug>.md` and ingest the learning there.
+
+## [2026-06-22] schema (doltech) | Added ADR template + Dataview dashboard
+- Created doltech/wiki/decisions/_template-adr.md (ADR format: context/decision/consequences/alternatives).
+- Created doltech/dashboard.md — Dataview views (pages by type, stubs, recently updated, sources).
+- Linked both from doltech/index.md.
+
+## [2026-06-22] query (doltech) | What query strategies do we know for Micronaut Data on MongoDB?
+- Read: src-2026-06-22-micronaut-data-mongodb, micronaut, mongodb, predicate-pattern, repository-pattern.
+- Filed answer back as synthesis: doltech/wiki/syntheses/micronaut-mongodb-query-strategy.md
+- Demonstrates the QUERY → file-back loop. doltech/index.md Syntheses updated.

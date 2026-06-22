@@ -147,3 +147,5 @@ BM25/vector search, CLI + MCP) and switch QUERY step 1 to qmd, scoped per domain
 ## Outputs
 - **Marp**: slide decks → `<domain>/outputs/slides/<slug>.md` with Marp frontmatter.
 - **matplotlib**: charts → script + PNG in `<domain>/outputs/charts/`. Embed PNGs into wiki pages where useful.
+- **Dashboard**: each domain may keep a `<domain>/dashboard.md` of Dataview blocks (pages by type,
+  stubs, recently updated, sources). Keep its queries in sync when adding new frontmatter fields.

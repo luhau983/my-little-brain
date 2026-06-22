@@ -1,7 +1,7 @@
 # doltech — Index
 
 > Work / engineering knowledge catalog. Beerus updates this on every doltech ingest.
-> Navigation: read this, then drill into pages. (← back to [front door](../index.md))
+> Navigation: read this, then drill into pages. (← [front door](../index.md) · 📊 [dashboard](dashboard.md))
 
 ## Overview
 - [Overview](wiki/overview.md) — the evolving big picture of doltech engineering knowledge.
@@ -22,8 +22,11 @@
 _(none yet)_
 
 ## Syntheses
-_(none yet)_
+- [[micronaut-mongodb-query-strategy|Query strategy: Micronaut Data on MongoDB]] — finders vs predicates;
+  when to use which. (filed from a query, 2026-06-22)
 
 ## Templates
 - [Project page template](wiki/entities/_template-project.md) — copy to `wiki/entities/<project>.md`
   to capture what's special about working with a doltech project (stack, conventions, gotchas, decisions).
+- [ADR template](wiki/decisions/_template-adr.md) — copy to `wiki/decisions/adr-NNNN-<slug>.md` to record
+  an architecture decision (context, decision, consequences with "who pays the cost", alternatives).
