@@ -108,3 +108,8 @@
 - mid-final-test: Micronaut mid/final assessments (online/offline, multi-skill), AI+teacher marking, SAT/TOEIC/junior sub-modules; pd-management reads unmarked tests here.
 - offline-course-management: Micronaut offline-course hub (~107 doc classes, 20+ rest clients) — central progress-sync target.
 - All 3 stubs upgraded to status: active. Remaining re-ingest flags: online-test-be, course-app-sheet-api, referral (partial).
+
+## [2026-06-22] synthesis (doltech) | Spring-monorepo feature matrix
+- Created doltech/wiki/syntheses/spring-monorepo-feature-matrix.md — bilingual capability matrix of all 24 spring apps
+  across 10 dimensions (Author/DoTest/AI-Expl/AI-Mark/Sheet/Course/Kafka/Hist/SEO/Rank). Built from existing per-app pages (no code re-read).
+- index.md Syntheses updated.

@@ -78,6 +78,8 @@ _(none yet)_
 ## Syntheses
 - [[micronaut-mongodb-query-strategy|Query strategy: Micronaut Data on MongoDB]] — finders vs predicates;
   when to use which. (filed from a query, 2026-06-22)
+- [[spring-monorepo-feature-matrix|Spring-monorepo — Feature Matrix]] — capability comparison across all 24
+  spring-monorepo apps (Author/DoTest/AI/Sheet/Course/Kafka/Hist/SEO/Rank). (2026-06-22)
 
 ## Templates
 - [Project page template](wiki/entities/_template-project.md) — copy to `wiki/entities/<project>.md`
