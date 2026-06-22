@@ -18,3 +18,9 @@
 - Created personal/ mirror skeleton (raw/wiki/outputs).
 - Updated CLAUDE.md for the two-tree layout; root index.md is now the front door.
 - Added per-domain index.md (doltech catalog + empty personal catalog) and personal/wiki/overview.md.
+
+## [2026-06-22] schema (doltech) | Added project-page template
+- Created doltech/wiki/entities/_template-project.md (entity_type: project) — a reusable page for
+  capturing per-project knowledge: stack, project-specific conventions, gotchas, key decisions, ownership.
+- Linked from doltech/index.md under Templates. Workflow: when you learn something special about a
+  doltech project, copy the template to `<project-slug>.md` and ingest the learning there.

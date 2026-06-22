@@ -23,3 +23,7 @@ _(none yet)_
 
 ## Syntheses
 _(none yet)_
+
+## Templates
+- [Project page template](wiki/entities/_template-project.md) — copy to `wiki/entities/<project>.md`
+  to capture what's special about working with a doltech project (stack, conventions, gotchas, decisions).
