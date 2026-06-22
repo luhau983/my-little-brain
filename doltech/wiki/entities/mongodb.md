@@ -7,7 +7,7 @@ created: 2026-06-22
 updated: 2026-06-22
 status: active
 source_count: 2
-sources: ["[[src-2026-06-22-micronaut-data-mongodb]]", "[[src-2026-06-22-study-hub-pagination]]"]
+sources: ["[[src-2026-06-22-micronaut-data-mongodb]]", "[[src-2026-06-22-study-hub-codebase]]"]
 ---
 
 # MongoDB
@@ -22,13 +22,14 @@ Multi-document **ACID** transactions since v4.0 (replica sets) and v4.2 (sharded
 - **Embed** when data is read together; **reference** when it grows unbounded.
 - Model around access patterns; index aggressively for read-heavy workloads.
 
-## Performance
-- **Deep pagination:** `skip/limit` is ≈ O(skip) — deep pages degrade. Prefer [[keyset-pagination]]
-  on an indexed sort field (seen in [[study-hub]], per [[src-2026-06-22-study-hub-pagination]]).
+## At doltech
+- Used by [[study-hub]] via spring-data-mongodb + [[querydsl|QueryDSL]] (also the [[micronaut|Micronaut]]
+  default stack). **No migration tool** — schema-on-write; indexes auto-created from `@CompoundIndex` /
+  `@Indexed` on startup, so a removed index needs a manual `dropIndex()` (per [[src-2026-06-22-study-hub-codebase]]).
 
 ## Related
-[[micronaut]] · [[predicate-pattern]] · [[study-hub]] · [[keyset-pagination]]
+[[micronaut]] · [[predicate-pattern]] · [[study-hub]] · [[querydsl]]
 
 ## Sources
 - [[src-2026-06-22-micronaut-data-mongodb]]
-- [[src-2026-06-22-study-hub-pagination]]
+- [[src-2026-06-22-study-hub-codebase]]

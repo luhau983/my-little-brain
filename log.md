@@ -42,3 +42,13 @@
 - New concept: doltech/wiki/concepts/keyset-pagination.md
 - Updated: doltech/wiki/entities/mongodb.md (+Performance, +1 source → 2), doltech/wiki/overview.md, doltech/index.md
 - Demo ingest — study-hub stack inferred; replace project-specific TODOs with real values.
+
+## [2026-06-22] lint+ingest (doltech) | Real study-hub codebase ingest (superseded demo)
+- Read the real project at /home/liuhao/Documents/doltech/spring-monorepo/applications/study-hub.
+- Correction: study-hub is **Spring Boot 4 / Java 25 / MongoDB**, NOT Micronaut (earlier demo guess).
+- Removed fabricated demo artifacts: raw/transcripts/2026-06-22-study-hub-pagination.md,
+  sources/src-2026-06-22-study-hub-pagination.md, concepts/keyset-pagination.md, and the fabricated mongodb Performance note.
+- Rewrote entities/study-hub.md with verified facts (stack, architecture, data access, conventions, gotchas).
+- Created sources/src-2026-06-22-study-hub-codebase.md; entities/spring-boot.md, querydsl.md; concepts/cqrs-command-query.md.
+- Updated mongodb.md (real "At doltech" note + codebase source), overview.md, index.md.
+- Schema: added `codebase` to source_type enum in CLAUDE.md.

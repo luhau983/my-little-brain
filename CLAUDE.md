@@ -83,9 +83,9 @@ status: stub | active | mature      # page maturity
 ```
 
 - Domain is **implicit by folder** — no `domain` field needed. (Dataview can filter on `file.folder`.)
-- **Source pages** add: `source_type` (article|paper|transcript|book), `author`, `url`, `raw_path`
-  (**relative to the domain root**, e.g. `raw/articles/x.md`), `date_published`, `ingested`,
-  `related: ["[[slug]]", ...]`.
+- **Source pages** add: `source_type` (article|paper|transcript|book|codebase), `author`, `url`, `raw_path`
+  (**relative to the domain root**, e.g. `raw/articles/x.md`; for a `codebase` source, the external
+  project path), `date_published`, `ingested`, `related: ["[[slug]]", ...]`.
 - **Entity/Concept pages** add: `source_count: <n>` and `sources: ["[[src-...]]", ...]`.
 - **Decision pages** add: `decision_status` (proposed|accepted|superseded), `supersedes`/`superseded_by`.
 
