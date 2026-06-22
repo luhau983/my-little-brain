@@ -113,3 +113,9 @@
 - Created doltech/wiki/syntheses/spring-monorepo-feature-matrix.md — bilingual capability matrix of all 24 spring apps
   across 10 dimensions (Author/DoTest/AI-Expl/AI-Mark/Sheet/Course/Kafka/Hist/SEO/Rank). Built from existing per-app pages (no code re-read).
 - index.md Syntheses updated.
+
+## [2026-06-22] synthesis (doltech) | Micronaut-monorepo feature matrix
+- Created doltech/wiki/syntheses/micronaut-monorepo-feature-matrix.md — bilingual matrix of all 12 micronaut-monorepo
+  apps × 10 dimensions (Author/DoTest/AI/Sheet/BigQuery/HubSpot/CourseHub/Kafka/Restate/CMS). Built from existing pages.
+- Confirmed: all 12 micronaut-monorepo apps' features already ingested (5 as "standalone" + 7 in Tier 3). Key insight:
+  this monorepo's distinctive cluster is CRM/data-ops (HubSpot + BigQuery + course-app-sheet), vs spring-monorepo's exam focus.
