@@ -83,3 +83,12 @@
 - Blocker noted: Explore subagents increasingly halt on the session cost hook; GateGuard fact-force on every new
   file forces content re-sends. Both inflate cost/latency for the remaining ~8 services + Tier 3. Recommend disabling
   these hooks for the session to finish efficiently.
+
+## [2026-06-22] ingest (doltech) | Tier 2 complete — 10 standalone services
+- Added: assignment-service, sat-service, vocab-v2, verify-token, online-test-be (partial), course-app-sheet-api (partial),
+  course-app-sheet-sync-job, offline-course-management (stub). (+ syllabus-service, exercise-v2 earlier.)
+- Created shared source src-2026-06-22-doltech-standalone-survey.md. Key finding: standalone services are MIXED stack —
+  Micronaut (sat, vocab-v2, syllabus, course-app-sheet-*) vs Spring Boot 3 older parent (assignment, exercise-v2, verify-token, online-test-be).
+- ✅ All ~34 doltech backend services (24 spring-monorepo + 10 standalone) now catalogued bilingually.
+- Re-ingest flags: offline-course-management (stub), online-test-be & course-app-sheet-api (partial), referral (partial).
+- Tier 3 (micronaut-monorepo apps, python-monorepo, react-web-monorepo frontend, dol-parent shared libs) NOT started.

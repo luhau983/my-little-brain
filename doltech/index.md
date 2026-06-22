@@ -48,8 +48,16 @@
 ### Tier 2 — standalone services (in progress)
 - [[syllabus-service|syllabus-service]] — course syllabus structure (course→week→subweek→resources). **Micronaut**.
 - [[exercise-v2|exercise-v2]] — English exercises + AI marking/suggestions (Spring Boot 3, older parent).
-- _(Pending: assignment-service, sat-service, vocab-v2, online-test-be, course-app-sheet-api/-sync-job, verify-token, offline-course-management.)_
-- _(Tier 3 pending: micronaut-monorepo, python-monorepo, react-web-monorepo, dol-parent-v2_2 shared libs.)_
+- [[assignment-service|assignment-service]] — assignments + multi-role/AI marking (Spring Boot 3, Firebase/DynamoDB).
+- [[sat-service|sat-service]] — SAT exams; adaptive; AI explanations (Micronaut/Undertow).
+- [[vocab-v2|vocab-v2]] — vocabulary SRS (spaced repetition) (Micronaut).
+- [[verify-token|verify-token]] — JWT/OTP phone verification (Spring Boot).
+- [[online-test-be|online-test-be]] — online test backend + AI gen (Spring Boot). *partial*
+- [[course-app-sheet-api|course-app-sheet-api]] — course/sheet metadata API (Micronaut + BigQuery). *partial*
+- [[course-app-sheet-sync-job|course-app-sheet-sync-job]] — cron sync (attendance/Zoom/HubSpot/Sheets) (Micronaut).
+- [[offline-course-management|offline-course-management]] — offline/classroom courses. *stub — re-ingest*
+- _(✅ Tier 2 essentially complete: all ~34 backend services (24 spring + 10 standalone) catalogued.)_
+- _(Tier 3 pending: micronaut-monorepo, python-monorepo, react-web-monorepo (frontend), dol-parent-v2_2 shared libs.)_
 
 ## Concepts
 - [[predicate-pattern|Predicate Pattern]] — composable, type-safe query building. (1 source)
