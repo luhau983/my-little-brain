@@ -1,0 +1,5 @@
+.obsidian/workspace*
+.DS_Store
+outputs/charts/*.png
+__pycache__/
+.venv/
