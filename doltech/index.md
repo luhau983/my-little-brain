@@ -9,14 +9,18 @@
 ## Sources
 - [[src-2026-06-22-micronaut-data-mongodb|Micronaut Data + MongoDB: Repositories & Predicates]]
   — 2026-06-22 · article · repository + predicate patterns on Micronaut Data MongoDB.
+- [[src-2026-06-22-study-hub-pagination|study-hub — pagination perf note]]
+  — 2026-06-22 · note · skip/limit deep-page slowness → keyset pagination.
 
 ## Entities
 - [[micronaut|Micronaut]] — JVM framework (AOT/DI) used for the EdTech backend. (1 source)
-- [[mongodb|MongoDB]] — document database; primary datastore. (1 source)
+- [[mongodb|MongoDB]] — document database; primary datastore. (2 sources)
+- [[study-hub|study-hub]] — EdTech lesson-delivery backend (Java 17 / Micronaut / MongoDB). (1 source)
 
 ## Concepts
 - [[predicate-pattern|Predicate Pattern]] — composable, type-safe query building. (1 source)
 - [[repository-pattern|Repository Pattern]] — abstraction over data access. (1 source)
+- [[keyset-pagination|Keyset Pagination]] — range-based paging; beats skip/limit on deep pages. (1 source)
 
 ## Decisions
 _(none yet)_

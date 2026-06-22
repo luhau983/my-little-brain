@@ -17,6 +17,10 @@ the [[predicate-pattern|Predicate pattern]] over the [[repository-pattern|Reposi
 
 ## Themes emerging
 - **Data access strategy** — compile-time queries, dynamic filtering, MongoDB modeling.
+- **Query performance** — [[keyset-pagination]] vs offset paging for deep pages.
+
+## Projects
+- [[study-hub]] — EdTech lesson-delivery backend.
 
 ## Open threads
 - Predicate pattern ↔ Micronaut Data MongoDB criteria API specifics.

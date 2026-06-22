@@ -34,3 +34,11 @@
 - Read: src-2026-06-22-micronaut-data-mongodb, micronaut, mongodb, predicate-pattern, repository-pattern.
 - Filed answer back as synthesis: doltech/wiki/syntheses/micronaut-mongodb-query-strategy.md
 - Demonstrates the QUERY → file-back loop. doltech/index.md Syntheses updated.
+
+## [2026-06-22] ingest (doltech) | study-hub — pagination perf note
+- Source: doltech/raw/transcripts/2026-06-22-study-hub-pagination.md
+- Created: doltech/wiki/sources/src-2026-06-22-study-hub-pagination.md
+- New entity: doltech/wiki/entities/study-hub.md (entity_type: project, from template)
+- New concept: doltech/wiki/concepts/keyset-pagination.md
+- Updated: doltech/wiki/entities/mongodb.md (+Performance, +1 source → 2), doltech/wiki/overview.md, doltech/index.md
+- Demo ingest — study-hub stack inferred; replace project-specific TODOs with real values.
