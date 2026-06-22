@@ -1,25 +1,14 @@
-# LittleBrain — Index
+# LittleBrain — Front Door
 
-> Content catalog of the wiki. Beerus updates this on every ingest.
-> Navigation: read this first, then drill into pages. Search later via qmd.
+> Two knowledge trees, one schema. Beerus maintains both. Pick a domain.
 
-## Overview
-- [[overview|Overview]] — the evolving big picture of the KB.
+## 🏢 [doltech](doltech/index.md)
+Engineering knowledge from work — doltech projects, patterns, gotchas, decisions, tooling.
+Shareable with the team later. → **[doltech catalog](doltech/index.md)**
 
-## Sources
-- [[src-2026-06-22-micronaut-data-mongodb|Micronaut Data + MongoDB: Repositories & Predicates]]
-  — 2026-06-22 · article · repository + predicate patterns on Micronaut Data MongoDB.
+## 🌱 [personal](personal/index.md)
+Personal projects + external knowledge you study — articles, papers, books, courses. Private.
+→ **[personal catalog](personal/index.md)**
 
-## Entities
-- [[micronaut|Micronaut]] — JVM framework (AOT/DI) used for the EdTech backend. (1 source)
-- [[mongodb|MongoDB]] — document database; primary datastore. (1 source)
-
-## Concepts
-- [[predicate-pattern|Predicate Pattern]] — composable, type-safe query building. (1 source)
-- [[repository-pattern|Repository Pattern]] — abstraction over data access. (1 source)
-
-## Decisions
-_(none yet)_
-
-## Syntheses
-_(none yet)_
+---
+Timeline of everything: `log.md` · Rules: `CLAUDE.md`

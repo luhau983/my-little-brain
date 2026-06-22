@@ -1,35 +1,34 @@
 # LittleBrain 🧠
 
-A self-maintaining technical knowledge base. **Beerus** writes the wiki; you curate and ask.
+A self-maintaining knowledge base with **two trees**. **Beerus** writes the wiki; you curate and ask.
 
-## Layout
-- `raw/` — drop your sources here (never edited). Source of truth.
-- `wiki/` — Beerus-generated, interlinked pages. Browse in Obsidian.
-- `outputs/` — generated slides/charts.
-- `CLAUDE.md` — the rules Beerus follows. `index.md` — catalog. `log.md` — history.
+## Two domains
+- **`doltech/`** — engineering knowledge from work (doltech projects). Shareable with the team later.
+- **`personal/`** — personal projects + external knowledge you study. Private.
+
+Each is a self-contained mini-wiki: `raw/` (sources), `wiki/` (Beerus pages), `index.md` (catalog),
+`outputs/` (slides/charts). They share one `CLAUDE.md` (the rules) and one root `log.md` (timeline).
+Root `index.md` is the front door.
 
 ## The three things you do
-
 **1. Ingest** — add knowledge.
-- Drop a file into `raw/articles|papers|transcripts|books/` (Obsidian Web Clipper is great for web).
-- Tell Beerus: `ingest raw/articles/<file>.md`
-- Beerus reads it, discusses takeaways, then writes the source page + updates entities/concepts,
-  fixes cross-refs, flags contradictions, updates the index & log, and commits.
+- Drop a file into `doltech/raw/...` or `personal/raw/...` and say: `ingest <path>`.
+- Beerus picks the domain, reads it, discusses takeaways, writes the source page + updates
+  entities/concepts, fixes cross-refs, flags contradictions, updates that domain's index + the log, commits.
 
 **2. Query** — ask anything.
-- `What do we know about MongoDB transactions vs our Micronaut setup?`
-- Beerus reads the index, finds pages, answers with citations, and offers to file the answer back.
+- `What do we know about MongoDB transactions in our Micronaut setup?`
+- Beerus reads the front door → the right domain index → pages, answers with citations, offers to file it back.
 
 **3. Lint** — keep it healthy.
-- `lint the wiki` → contradictions, stale claims, orphans, missing pages, data gaps + suggested sources.
+- `lint doltech` / `lint personal` → contradictions, stale claims, orphans, missing pages, data gaps.
 
 ## Recommended setup
-- Open this folder as an **Obsidian vault**; keep Beerus on one side, Obsidian on the other.
-- Obsidian → Settings → Files & links → set attachment folder to `raw/assets/`, bind a "Download
-  attachments" hotkey so clipped images land locally.
-- Use the **graph view** to see hubs vs orphans. Enable **Dataview** for dynamic tables from frontmatter.
+- Open this folder as an **Obsidian vault**; Beerus on one side, Obsidian on the other.
+- Settings → Files & links → attachment folder per domain `raw/assets/`; bind a "Download attachments" hotkey.
+- Use **graph view** to see hubs vs orphans (two clusters, one per domain). Enable **Dataview**.
 
 ## Tips
 - Ingest one source at a time and stay involved — quality compounds.
-- Good answers shouldn't die in chat — let Beerus file them as synthesis pages.
-- It's a git repo: `git log` is your wiki's changelog.
+- Keep the boundary: never let personal notes drift into `doltech/`.
+- It's a git repo: `git log` is your changelog.
