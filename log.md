@@ -92,3 +92,12 @@
 - ✅ All ~34 doltech backend services (24 spring-monorepo + 10 standalone) now catalogued bilingually.
 - Re-ingest flags: offline-course-management (stub), online-test-be & course-app-sheet-api (partial), referral (partial).
 - Tier 3 (micronaut-monorepo apps, python-monorepo, react-web-monorepo frontend, dol-parent shared libs) NOT started.
+
+## [2026-06-22] ingest (doltech) | Tier 3 complete — FULL doltech ingest done
+- micronaut-monorepo: 7 new apps (quiz-test, marking-form-service, final-test-merge-contact-api, hubspot-user-resolver-api,
+  sat-service-entrance-final + entrance-test/mid-final-test as stubs). (5 others already done as "standalone".)
+- python-monorepo: overview page (7 Python/Restate services: audio, pronunciation, speech, session-orchestrator, restate_ai, vcb_payment, watchdog).
+- react-web-monorepo: overview page (Next.js, ~34 frontend apps grouped: LMS / test-taking / landing / referral / admin).
+- dol-shared-libraries: reference page cataloguing 35 dol-common-*/dol-component-* modules (parent dol-parent-v2_2).
+- ✅ FULL doltech ingested: 24 spring apps + 10 standalone + 7 micronaut + python/react/libs overviews.
+- Re-ingest flags: entrance-test, mid-final-test, offline-course-management (stubs); online-test-be, course-app-sheet-api, referral (partial).

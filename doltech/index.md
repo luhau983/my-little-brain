@@ -57,7 +57,15 @@
 - [[course-app-sheet-sync-job|course-app-sheet-sync-job]] — cron sync (attendance/Zoom/HubSpot/Sheets) (Micronaut).
 - [[offline-course-management|offline-course-management]] — offline/classroom courses. *stub — re-ingest*
 - _(✅ Tier 2 essentially complete: all ~34 backend services (24 spring + 10 standalone) catalogued.)_
-- _(Tier 3 pending: micronaut-monorepo, python-monorepo, react-web-monorepo (frontend), dol-parent-v2_2 shared libs.)_
+
+### Tier 3 — micronaut-monorepo (new apps), python, frontend, shared libs
+- [[quiz-test|quiz-test]] · [[marking-form-service|marking-form-service]] · [[final-test-merge-contact-api|final-test-merge-contact-api]] ·
+  [[hubspot-user-resolver-api|hubspot-user-resolver-api]] · [[sat-service-entrance-final|sat-service-entrance-final]] — micronaut-monorepo apps.
+- [[entrance-test|entrance-test]] *stub* · [[mid-final-test|mid-final-test]] *stub* — micronaut-monorepo apps (re-ingest).
+- [[python-monorepo|python-monorepo]] — 7 Python services (audio, pronunciation, speech, Restate AI, VCB payment, watchdog).
+- [[react-web-monorepo|react-web-monorepo]] — Next.js frontend (~34 apps: LMS, landing, entrance/final-test, referral, admin).
+- [[dol-shared-libraries|dol shared libraries]] — 35 `dol-common-*`/`dol-component-*` modules (parent dol-parent-v2_2).
+- _(✅ Tier 3 covered — full doltech ingest complete.)_
 
 ## Concepts
 - [[predicate-pattern|Predicate Pattern]] — composable, type-safe query building. (1 source)
