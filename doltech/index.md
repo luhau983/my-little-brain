@@ -43,7 +43,13 @@
 - [[user-academy-event|user-academy-event]] — event tracking + "Bang Vang" leaderboard (Kafka from 11 apps).
 - [[virtual-exam|virtual-exam]] — IELTS practice + AI marking (n8n+Restate) + HeyGen speaking.
 - [[young-learners-english|young-learners-english]] — Cambridge YLE (Starter/Mover/Flyer) + AI marking.
-- _(✅ Tier 1 complete: all 24 spring-monorepo apps ingested. Tier 2/3 — standalone services + micronaut/python/react monorepos — pending.)_
+- _(✅ Tier 1 complete: all 24 spring-monorepo apps ingested.)_
+
+### Tier 2 — standalone services (in progress)
+- [[syllabus-service|syllabus-service]] — course syllabus structure (course→week→subweek→resources). **Micronaut**.
+- [[exercise-v2|exercise-v2]] — English exercises + AI marking/suggestions (Spring Boot 3, older parent).
+- _(Pending: assignment-service, sat-service, vocab-v2, online-test-be, course-app-sheet-api/-sync-job, verify-token, offline-course-management.)_
+- _(Tier 3 pending: micronaut-monorepo, python-monorepo, react-web-monorepo, dol-parent-v2_2 shared libs.)_
 
 ## Concepts
 - [[predicate-pattern|Predicate Pattern]] — composable, type-safe query building. (1 source)

@@ -76,3 +76,10 @@
 - Pending Tier 2: standalone services (assignment-service, sat-service, syllabus-service, exercise-v2,
   vocab-v2, online-test-be, course-app-sheet-api/-sync-job, verify-token, offline-course-management).
 - Pending Tier 3: micronaut-monorepo, python-monorepo, react-web-monorepo, dol-parent-v2_2 shared libs.
+
+## [2026-06-22] ingest (doltech) | Tier 2 — standalone services (partial: 2 of 10)
+- syllabus-service (**Micronaut** / Java 17 — first non-Spring app found) and exercise-v2 (Spring Boot 3, older dol-parent) ingested.
+- 3 agents (assignment-service, sat-service, vocab-v2) cost-paused without returning — to re-ingest.
+- Blocker noted: Explore subagents increasingly halt on the session cost hook; GateGuard fact-force on every new
+  file forces content re-sends. Both inflate cost/latency for the remaining ~8 services + Tier 3. Recommend disabling
+  these hooks for the session to finish efficiently.
