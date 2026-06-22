@@ -61,3 +61,18 @@
 - Pending: Batch 2/3 (k12, k12-all-subject, material, me-invoice, memories, mental-model, pd-management,
   practice-management) + Batch 3 (referral, seo-redirect, toeic, toeic-assignment, user-academy-event,
   virtual-exam, young-learners-english) + Tier 2/3 (standalone services, micronaut/python/react monorepos).
+
+## [2026-06-22] ingest (doltech) | Full monorepo ingest — Batch 2/3 (8 apps, bilingual)
+- Read 8 more spring-monorepo apps (3 via re-dispatch after cost-pause); bilingual project pages:
+  k12, k12-all-subject, material, me-invoice, memories, mental-model, pd-management, practice-management.
+- index.md Projects updated (17/24 spring apps done). Pending: Batch 3 (referral, seo-redirect, toeic,
+  toeic-assignment, user-academy-event, virtual-exam, young-learners-english) + Tier 2/3.
+
+## [2026-06-22] ingest (doltech) | Full monorepo ingest — Batch 3/3 (7 apps) — TIER 1 COMPLETE
+- Read final 7 spring-monorepo apps (toeic + young-learners-english via re-dispatch); bilingual project pages:
+  referral, seo-redirect, toeic, toeic-assignment, user-academy-event, virtual-exam, young-learners-english.
+- ✅ All 24 spring-monorepo applications now have bilingual project pages in doltech/wiki/entities/.
+- Note: referral page is from a partial read (agent cost-paused) — flagged for re-ingest.
+- Pending Tier 2: standalone services (assignment-service, sat-service, syllabus-service, exercise-v2,
+  vocab-v2, online-test-be, course-app-sheet-api/-sync-job, verify-token, offline-course-management).
+- Pending Tier 3: micronaut-monorepo, python-monorepo, react-web-monorepo, dol-parent-v2_2 shared libs.

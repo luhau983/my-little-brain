@@ -28,7 +28,22 @@
 - [[hsa|hsa]] — university-entrance exams (VNU/HUST): full/section/practice + AI explanations.
 - [[junior|junior]] — Junior-level English exams + AI marking for writing.
 - [[k10|k10]] — English exam authoring + do-test + AI marking/explanations.
-- _(Batch 1 of 3 done — 15 more spring apps + Tier 2/3 standalone services pending.)_
+- [[k12|k12]] — English exams (HS & primary), REAL/CHILL modes, AI explanations.
+- [[k12-all-subject|k12-all-subject]] — multi-subject K12 exams (11 subjects) + AI marking (Restate).
+- [[material|material]] — BLOG/VIDEO/PDF learning content + student progress + cross-course analytics.
+- [[me-invoice|me-invoice]] — e-invoice publishing via MISA MeInvoice (tax compliance).
+- [[memories|memories]] — course photo/video archive with EC approval workflow.
+- [[mental-model|mental-model]] — mental-model quizzes + leaderboards + course integration.
+- [[pd-management|pd-management]] — teacher penalties, bonuses, workload tracking.
+- [[practice-management|practice-management]] — practice analytics from 9 exam systems (Kafka), streaks, targets.
+- [[referral|referral]] — referral programs, wallets, OTP, rate limiting.
+- [[seo-redirect|seo-redirect]] — HTTP 301/302 redirect rules across apps (Excel via n8n).
+- [[toeic|toeic]] — TOEIC L/R exam prep (oldest/critical); full tests, academy, AI explanations.
+- [[toeic-assignment|toeic-assignment]] — TOEIC speaking/writing AI marking (Restate), payment-gated.
+- [[user-academy-event|user-academy-event]] — event tracking + "Bang Vang" leaderboard (Kafka from 11 apps).
+- [[virtual-exam|virtual-exam]] — IELTS practice + AI marking (n8n+Restate) + HeyGen speaking.
+- [[young-learners-english|young-learners-english]] — Cambridge YLE (Starter/Mover/Flyer) + AI marking.
+- _(✅ Tier 1 complete: all 24 spring-monorepo apps ingested. Tier 2/3 — standalone services + micronaut/python/react monorepos — pending.)_
 
 ## Concepts
 - [[predicate-pattern|Predicate Pattern]] — composable, type-safe query building. (1 source)
