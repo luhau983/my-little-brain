@@ -101,3 +101,10 @@
 - dol-shared-libraries: reference page cataloguing 35 dol-common-*/dol-component-* modules (parent dol-parent-v2_2).
 - ✅ FULL doltech ingested: 24 spring apps + 10 standalone + 7 micronaut + python/react/libs overviews.
 - Re-ingest flags: entrance-test, mid-final-test, offline-course-management (stubs); online-test-be, course-app-sheet-api, referral (partial).
+
+## [2026-06-22] ingest (doltech) | Re-ingested 3 stubs → full (entrance-test, mid-final-test, offline-course-management)
+- Used max-strength anti-cost-pause prompt; all 3 Explore agents returned full reads this time.
+- entrance-test: Micronaut 4 entrance/placement exams (IELTS/TOEIC/SAT/junior), AI marking, EC/TA analytics, HubSpot/Customer.io.
+- mid-final-test: Micronaut mid/final assessments (online/offline, multi-skill), AI+teacher marking, SAT/TOEIC/junior sub-modules; pd-management reads unmarked tests here.
+- offline-course-management: Micronaut offline-course hub (~107 doc classes, 20+ rest clients) — central progress-sync target.
+- All 3 stubs upgraded to status: active. Remaining re-ingest flags: online-test-be, course-app-sheet-api, referral (partial).

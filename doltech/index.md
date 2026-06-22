@@ -55,13 +55,13 @@
 - [[online-test-be|online-test-be]] — online test backend + AI gen (Spring Boot). *partial*
 - [[course-app-sheet-api|course-app-sheet-api]] — course/sheet metadata API (Micronaut + BigQuery). *partial*
 - [[course-app-sheet-sync-job|course-app-sheet-sync-job]] — cron sync (attendance/Zoom/HubSpot/Sheets) (Micronaut).
-- [[offline-course-management|offline-course-management]] — offline/classroom courses. *stub — re-ingest*
+- [[offline-course-management|offline-course-management]] — offline/classroom course hub (✅ re-ingested, full; ~107 doc classes).
 - _(✅ Tier 2 essentially complete: all ~34 backend services (24 spring + 10 standalone) catalogued.)_
 
 ### Tier 3 — micronaut-monorepo (new apps), python, frontend, shared libs
 - [[quiz-test|quiz-test]] · [[marking-form-service|marking-form-service]] · [[final-test-merge-contact-api|final-test-merge-contact-api]] ·
   [[hubspot-user-resolver-api|hubspot-user-resolver-api]] · [[sat-service-entrance-final|sat-service-entrance-final]] — micronaut-monorepo apps.
-- [[entrance-test|entrance-test]] *stub* · [[mid-final-test|mid-final-test]] *stub* — micronaut-monorepo apps (re-ingest).
+- [[entrance-test|entrance-test]] · [[mid-final-test|mid-final-test]] — micronaut-monorepo apps (✅ re-ingested, full).
 - [[python-monorepo|python-monorepo]] — 7 Python services (audio, pronunciation, speech, Restate AI, VCB payment, watchdog).
 - [[react-web-monorepo|react-web-monorepo]] — Next.js frontend (~34 apps: LMS, landing, entrance/final-test, referral, admin).
 - [[dol-shared-libraries|dol shared libraries]] — 35 `dol-common-*`/`dol-component-*` modules (parent dol-parent-v2_2).
