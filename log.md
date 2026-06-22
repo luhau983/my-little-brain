@@ -52,3 +52,12 @@
 - Created sources/src-2026-06-22-study-hub-codebase.md; entities/spring-boot.md, querydsl.md; concepts/cqrs-command-query.md.
 - Updated mongodb.md (real "At doltech" note + codebase source), overview.md, index.md.
 - Schema: added `codebase` to source_type enum in CLAUDE.md.
+
+## [2026-06-22] ingest (doltech) | Full monorepo ingest — Batch 1/3 (8 apps, bilingual)
+- Read 8 spring-monorepo apps via parallel Explore agents; created bilingual project pages (EN top, VI below):
+  action-history, billing, ev-dictionary, g12, grammar, hsa, junior, k10.
+- Created shared source src-2026-06-22-spring-monorepo-survey.md (cited by all app pages).
+- index.md: added Projects section (9 apps incl. study-hub). Schema: documented bilingual-page convention.
+- Pending: Batch 2/3 (k12, k12-all-subject, material, me-invoice, memories, mental-model, pd-management,
+  practice-management) + Batch 3 (referral, seo-redirect, toeic, toeic-assignment, user-academy-event,
+  virtual-exam, young-learners-english) + Tier 2/3 (standalone services, micronaut/python/react monorepos).

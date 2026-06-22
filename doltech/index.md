@@ -15,9 +15,20 @@
 ## Entities
 - [[micronaut|Micronaut]] — JVM framework (AOT/DI) used for the EdTech backend. (1 source)
 - [[mongodb|MongoDB]] — document database; primary datastore. (2 sources)
-- [[study-hub|study-hub]] — EdTech kid-exercise service; Spring Boot 4 / Java 25 / MongoDB monorepo app. (1 source)
 - [[spring-boot|Spring Boot]] — JVM framework powering the doltech spring-monorepo apps. (1 source)
 - [[querydsl|QueryDSL]] — type-safe query library; static PredicateBuilders over MongoDB. (1 source)
+
+## Projects (spring-monorepo apps) — bilingual EN/VI
+- [[study-hub|study-hub]] — EdTech kid-exercise service (content CRUD + test-taking).
+- [[action-history|action-history]] — central audit: AI history, field-change history, download tracking.
+- [[billing|billing]] — subscriptions, payments (FlexPrice), feature access, employee premium.
+- [[ev-dictionary|ev-dictionary]] — EN-VI dictionary content + AI enrichment + sheet import.
+- [[g12|g12]] — grade-12 exams (11 subjects): authoring, do-test, AI explanations, course integration.
+- [[grammar|grammar]] — grammar content + SEO publishing + ElasticSearch + user progress.
+- [[hsa|hsa]] — university-entrance exams (VNU/HUST): full/section/practice + AI explanations.
+- [[junior|junior]] — Junior-level English exams + AI marking for writing.
+- [[k10|k10]] — English exam authoring + do-test + AI marking/explanations.
+- _(Batch 1 of 3 done — 15 more spring apps + Tier 2/3 standalone services pending.)_
 
 ## Concepts
 - [[predicate-pattern|Predicate Pattern]] — composable, type-safe query building. (1 source)
