@@ -34,6 +34,9 @@ domains), and `log.md` (one global timeline covering both).
 3. **`CLAUDE.md`** (root) — the schema, shared by both domains. Co-evolved with the human.
 
 ## Session-start protocol
+0. **Sync first:** `git -C ~/Documents/my-little-brain pull --rebase --quiet`
+   The wiki is maintained by multiple agents across machines — always pull before reading.
+   If the repo doesn't exist locally: `git clone git@github.com:luhau983/my-little-brain.git ~/Documents/my-little-brain`
 1. Read root `index.md` (front door).
 2. Read the relevant domain's `<domain>/index.md`.
 3. Read the last ~5 `log.md` entries: `grep "^## \[" log.md | tail -5`.
