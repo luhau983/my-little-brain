@@ -142,6 +142,33 @@ One global, append-only timeline at root. Every entry:
 The vault is a git repo of markdown. Commit after each ingest/lint/filed-query. Messages:
 `ingest(doltech): ...`, `query(personal): ...`, `lint: ...`, `schema: ...`.
 
+## Operation: HEADLESS INGEST (automated agents / Hermes cron)
+Trigger: agent finishes a task and decides knowledge is worth persisting, OR Zeno Sama sends a
+link/file via Telegram with no further instruction.
+
+**Rules for automated agents (no human in the loop):**
+0. **Determine domain** — URL/context contains doltech project name or `doltech.vn` → **doltech**.
+   Personal learning, external article, non-work topic → **personal**. If genuinely ambiguous, default
+   to **personal** and note the ambiguity in log.md.
+1. **Skip discussion step** — go straight to writing. No interactive back-and-forth.
+2. **What qualifies as worth saving:**
+   - A gotcha / workaround discovered during debugging (would take >10 min to rediscover)
+   - A decision with reasoning (why A not B)
+   - A pattern seen ≥2 times
+   - A research synthesis (agent already did deep work — compile it, don't re-derive)
+   - A contradiction with existing wiki claims
+   - **Do NOT save:** one-off tasks, casual Q&A, anything stale within a week
+3. Follow INGEST steps 3–11 (skip step 2 discussion).
+4. **Notify Zeno Sama via Telegram** after commit:
+   > "📝 Wiki updated: `<page(s) touched>` — `<one-line summary>`. Commit: `<short SHA>`"
+5. **On ambiguity or potential error** — write a candidate file to `<domain>/wiki/candidates/<slug>.md`
+   instead of the live wiki folder. Notify Zeno Sama to review before promoting.
+
+**Domain auto-detect keywords:**
+- doltech: `doltech`, `dol-shared`, `study-hub`, `hsa`, `toeic`, `k12`, `sat-service`, `micronaut`,
+  `spring-boot` (in doltech context), `hau.lu@doltech.vn`, github.com/doltech-dev
+- personal: everything else
+
 ## Search (qmd) — future hook
 At small scale, the index files are enough. Past ~100 sources in a domain, install qmd (local
 BM25/vector search, CLI + MCP) and switch QUERY step 1 to qmd, scoped per domain. No re-architecture needed.
